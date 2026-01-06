@@ -10,8 +10,10 @@ dataset = pd.read_csv("/Users/joshua.stanley/Desktop/TSA/DataScience/dataset.csv
 
 #print(dataset.head())
 
+
 # ^ i removed all of the verbose, it was cluttering the terminal, can uncomment to reuse.
 
+#dataset = dataset[dataset['CountryOfExploitation'] == 'USA']
 
 
 #just some global variables
@@ -28,9 +30,7 @@ for col in dataset.columns:
     #this is the sequence to add them to the seperate list as mentioned above.
     if len(vc) <= 1:
         
-
-        
-        vc.index = [col]   
+        vc.index = [col]    # type: ignore
 
         singular_values_list.append(vc)
         continue
@@ -55,4 +55,5 @@ plt.ylabel("Occurrences")
 plt.tight_layout()
 plt.show()
 
-#code end
+# end of code
+
