@@ -1,0 +1,2489 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20253.26.0206.0336                               -->
+<workbook original-version='18.1' source-build='2025.3.3 (20253.26.0206.0336)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='tourism' inline='true' name='federated.0evjdp70scgkc711crn330ldeu50' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='tourism' name='textscan.10qdjju0558alq1h5a23x0cp14cb'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='/Users/amanagrawal/TSA SHIT/Real Data Sci 26/Data-Sci-26/R Analysis/tourism.csv' dataRefreshTime='' directory='/Users/amanagrawal/TSA SHIT/Real Data Sci 26/Data-Sci-26/R Analysis' filename='/var/folders/16/x8rlyb_s7913cc45kvffjkdc0000gn/T/tableau-temp/15jq1jt0d8qmc516vyt051jwbv8n/tourism.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='date' date-parse-format='&apos;X&apos;yyyy' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[X1960]' />
+            <value name='[X1961]' />
+            <value name='[X1962]' />
+            <value name='[X1963]' />
+            <value name='[X1964]' />
+            <value name='[X1965]' />
+            <value name='[X1966]' />
+            <value name='[X1967]' />
+            <value name='[X1968]' />
+            <value name='[X1969]' />
+            <value name='[X1970]' />
+            <value name='[X1971]' />
+            <value name='[X1972]' />
+            <value name='[X1973]' />
+            <value name='[X1974]' />
+            <value name='[X1975]' />
+            <value name='[X1976]' />
+            <value name='[X1977]' />
+            <value name='[X1978]' />
+            <value name='[X1979]' />
+            <value name='[X1980]' />
+            <value name='[X1981]' />
+            <value name='[X1982]' />
+            <value name='[X1983]' />
+            <value name='[X1984]' />
+            <value name='[X1985]' />
+            <value name='[X1986]' />
+            <value name='[X1987]' />
+            <value name='[X1988]' />
+            <value name='[X1989]' />
+            <value name='[X1990]' />
+            <value name='[X1991]' />
+            <value name='[X1992]' />
+            <value name='[X1993]' />
+            <value name='[X1994]' />
+            <value name='[X1995]' />
+            <value name='[X1996]' />
+            <value name='[X1997]' />
+            <value name='[X1998]' />
+            <value name='[X1999]' />
+            <value name='[X2000]' />
+            <value name='[X2001]' />
+            <value name='[X2002]' />
+            <value name='[X2003]' />
+            <value name='[X2004]' />
+            <value name='[X2005]' />
+            <value name='[X2006]' />
+            <value name='[X2007]' />
+            <value name='[X2008]' />
+            <value name='[X2009]' />
+            <value name='[X2010]' />
+            <value name='[X2011]' />
+            <value name='[X2012]' />
+            <value name='[X2013]' />
+            <value name='[X2014]' />
+            <value name='[X2015]' />
+            <value name='[X2016]' />
+            <value name='[X2017]' />
+            <value name='[X2018]' />
+            <value name='[X2019]' />
+            <value name='[X2020]' />
+            <value name='[X2021]' />
+            <value name='[X2022]' />
+            <value name='[X2023]' />
+            <value name='[X2024]' />
+            <value name='[X2025]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[tourism.csv].[X1960]' />
+              <field name='[tourism.csv].[X1961]' />
+              <field name='[tourism.csv].[X1962]' />
+              <field name='[tourism.csv].[X1963]' />
+              <field name='[tourism.csv].[X1964]' />
+              <field name='[tourism.csv].[X1965]' />
+              <field name='[tourism.csv].[X1966]' />
+              <field name='[tourism.csv].[X1967]' />
+              <field name='[tourism.csv].[X1968]' />
+              <field name='[tourism.csv].[X1969]' />
+              <field name='[tourism.csv].[X1970]' />
+              <field name='[tourism.csv].[X1971]' />
+              <field name='[tourism.csv].[X1972]' />
+              <field name='[tourism.csv].[X1973]' />
+              <field name='[tourism.csv].[X1974]' />
+              <field name='[tourism.csv].[X1975]' />
+              <field name='[tourism.csv].[X1976]' />
+              <field name='[tourism.csv].[X1977]' />
+              <field name='[tourism.csv].[X1978]' />
+              <field name='[tourism.csv].[X1979]' />
+              <field name='[tourism.csv].[X1980]' />
+              <field name='[tourism.csv].[X1981]' />
+              <field name='[tourism.csv].[X1982]' />
+              <field name='[tourism.csv].[X1983]' />
+              <field name='[tourism.csv].[X1984]' />
+              <field name='[tourism.csv].[X1985]' />
+              <field name='[tourism.csv].[X1986]' />
+              <field name='[tourism.csv].[X1987]' />
+              <field name='[tourism.csv].[X1988]' />
+              <field name='[tourism.csv].[X1989]' />
+              <field name='[tourism.csv].[X1990]' />
+              <field name='[tourism.csv].[X1991]' />
+              <field name='[tourism.csv].[X1992]' />
+              <field name='[tourism.csv].[X1993]' />
+              <field name='[tourism.csv].[X1994]' />
+              <field name='[tourism.csv].[X1995]' />
+              <field name='[tourism.csv].[X1996]' />
+              <field name='[tourism.csv].[X1997]' />
+              <field name='[tourism.csv].[X1998]' />
+              <field name='[tourism.csv].[X1999]' />
+              <field name='[tourism.csv].[X2000]' />
+              <field name='[tourism.csv].[X2001]' />
+              <field name='[tourism.csv].[X2002]' />
+              <field name='[tourism.csv].[X2003]' />
+              <field name='[tourism.csv].[X2004]' />
+              <field name='[tourism.csv].[X2005]' />
+              <field name='[tourism.csv].[X2006]' />
+              <field name='[tourism.csv].[X2007]' />
+              <field name='[tourism.csv].[X2008]' />
+              <field name='[tourism.csv].[X2009]' />
+              <field name='[tourism.csv].[X2010]' />
+              <field name='[tourism.csv].[X2011]' />
+              <field name='[tourism.csv].[X2012]' />
+              <field name='[tourism.csv].[X2013]' />
+              <field name='[tourism.csv].[X2014]' />
+              <field name='[tourism.csv].[X2015]' />
+              <field name='[tourism.csv].[X2016]' />
+              <field name='[tourism.csv].[X2017]' />
+              <field name='[tourism.csv].[X2018]' />
+              <field name='[tourism.csv].[X2019]' />
+              <field name='[tourism.csv].[X2020]' />
+              <field name='[tourism.csv].[X2021]' />
+              <field name='[tourism.csv].[X2022]' />
+              <field name='[tourism.csv].[X2023]' />
+              <field name='[tourism.csv].[X2024]' />
+              <field name='[tourism.csv].[X2025]' />
+            </group>
+          </groups>
+          <relation connection='textscan.10qdjju0558alq1h5a23x0cp14cb' name='tourism.csv' table='[tourism#csv$]' type='table'>
+            <columns gridOrigin='A1:BS267:no:A1:BS267:0' header='yes'>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='Country.Name' ordinal='1' />
+              <column datatype='string' name='Country.Code' ordinal='2' />
+              <column datatype='string' name='Indicator.Name' ordinal='3' />
+              <column datatype='string' name='Indicator.Code' ordinal='4' />
+              <column datatype='string' name='X1960' ordinal='5' />
+              <column datatype='string' name='X1961' ordinal='6' />
+              <column datatype='string' name='X1962' ordinal='7' />
+              <column datatype='string' name='X1963' ordinal='8' />
+              <column datatype='string' name='X1964' ordinal='9' />
+              <column datatype='string' name='X1965' ordinal='10' />
+              <column datatype='string' name='X1966' ordinal='11' />
+              <column datatype='string' name='X1967' ordinal='12' />
+              <column datatype='string' name='X1968' ordinal='13' />
+              <column datatype='string' name='X1969' ordinal='14' />
+              <column datatype='string' name='X1970' ordinal='15' />
+              <column datatype='string' name='X1971' ordinal='16' />
+              <column datatype='string' name='X1972' ordinal='17' />
+              <column datatype='string' name='X1973' ordinal='18' />
+              <column datatype='string' name='X1974' ordinal='19' />
+              <column datatype='string' name='X1975' ordinal='20' />
+              <column datatype='string' name='X1976' ordinal='21' />
+              <column datatype='string' name='X1977' ordinal='22' />
+              <column datatype='string' name='X1978' ordinal='23' />
+              <column datatype='string' name='X1979' ordinal='24' />
+              <column datatype='string' name='X1980' ordinal='25' />
+              <column datatype='string' name='X1981' ordinal='26' />
+              <column datatype='string' name='X1982' ordinal='27' />
+              <column datatype='string' name='X1983' ordinal='28' />
+              <column datatype='string' name='X1984' ordinal='29' />
+              <column datatype='string' name='X1985' ordinal='30' />
+              <column datatype='string' name='X1986' ordinal='31' />
+              <column datatype='string' name='X1987' ordinal='32' />
+              <column datatype='string' name='X1988' ordinal='33' />
+              <column datatype='string' name='X1989' ordinal='34' />
+              <column datatype='string' name='X1990' ordinal='35' />
+              <column datatype='string' name='X1991' ordinal='36' />
+              <column datatype='string' name='X1992' ordinal='37' />
+              <column datatype='string' name='X1993' ordinal='38' />
+              <column datatype='string' name='X1994' ordinal='39' />
+              <column datatype='real' name='X1995' ordinal='40' />
+              <column datatype='real' name='X1996' ordinal='41' />
+              <column datatype='real' name='X1997' ordinal='42' />
+              <column datatype='real' name='X1998' ordinal='43' />
+              <column datatype='real' name='X1999' ordinal='44' />
+              <column datatype='real' name='X2000' ordinal='45' />
+              <column datatype='real' name='X2001' ordinal='46' />
+              <column datatype='real' name='X2002' ordinal='47' />
+              <column datatype='real' name='X2003' ordinal='48' />
+              <column datatype='real' name='X2004' ordinal='49' />
+              <column datatype='real' name='X2005' ordinal='50' />
+              <column datatype='real' name='X2006' ordinal='51' />
+              <column datatype='real' name='X2007' ordinal='52' />
+              <column datatype='real' name='X2008' ordinal='53' />
+              <column datatype='real' name='X2009' ordinal='54' />
+              <column datatype='real' name='X2010' ordinal='55' />
+              <column datatype='real' name='X2011' ordinal='56' />
+              <column datatype='real' name='X2012' ordinal='57' />
+              <column datatype='real' name='X2013' ordinal='58' />
+              <column datatype='real' name='X2014' ordinal='59' />
+              <column datatype='real' name='X2015' ordinal='60' />
+              <column datatype='real' name='X2016' ordinal='61' />
+              <column datatype='real' name='X2017' ordinal='62' />
+              <column datatype='real' name='X2018' ordinal='63' />
+              <column datatype='real' name='X2019' ordinal='64' />
+              <column datatype='real' name='X2020' ordinal='65' />
+              <column datatype='string' name='X2021' ordinal='66' />
+              <column datatype='string' name='X2022' ordinal='67' />
+              <column datatype='string' name='X2023' ordinal='68' />
+              <column datatype='string' name='X2024' ordinal='69' />
+              <column datatype='string' name='X2025' ordinal='70' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BS267:no:A1:BS267:0&quot;</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country.Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country.Name]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>Country.Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country.Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country.Code]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>Country.Code</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator.Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator.Name]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>Indicator.Name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator.Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator.Code]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>Indicator.Code</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country.Code]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column datatype='string' name='[Country.Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Year' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+      <column caption='# Inbound Tourists' datatype='integer' name='[Pivot Field Values]' role='dimension' type='ordinal' />
+      <column caption='tourism.csv' datatype='table' name='[__tableau_internal_object_id__].[tourism.csv_12717BF8589B4B459C3ABD732B5AF2FD]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='F3, F2' />
+      </drill-paths>
+      <layout common-percentage='1' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' user-set-layout-v2='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='tourism.csv' id='tourism.csv_12717BF8589B4B459C3ABD732B5AF2FD'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='date' date-parse-format='&apos;X&apos;yyyy' name='Pivot Field Names' />
+                  <column datatype='integer' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[X1960]' />
+                  <value name='[X1961]' />
+                  <value name='[X1962]' />
+                  <value name='[X1963]' />
+                  <value name='[X1964]' />
+                  <value name='[X1965]' />
+                  <value name='[X1966]' />
+                  <value name='[X1967]' />
+                  <value name='[X1968]' />
+                  <value name='[X1969]' />
+                  <value name='[X1970]' />
+                  <value name='[X1971]' />
+                  <value name='[X1972]' />
+                  <value name='[X1973]' />
+                  <value name='[X1974]' />
+                  <value name='[X1975]' />
+                  <value name='[X1976]' />
+                  <value name='[X1977]' />
+                  <value name='[X1978]' />
+                  <value name='[X1979]' />
+                  <value name='[X1980]' />
+                  <value name='[X1981]' />
+                  <value name='[X1982]' />
+                  <value name='[X1983]' />
+                  <value name='[X1984]' />
+                  <value name='[X1985]' />
+                  <value name='[X1986]' />
+                  <value name='[X1987]' />
+                  <value name='[X1988]' />
+                  <value name='[X1989]' />
+                  <value name='[X1990]' />
+                  <value name='[X1991]' />
+                  <value name='[X1992]' />
+                  <value name='[X1993]' />
+                  <value name='[X1994]' />
+                  <value name='[X1995]' />
+                  <value name='[X1996]' />
+                  <value name='[X1997]' />
+                  <value name='[X1998]' />
+                  <value name='[X1999]' />
+                  <value name='[X2000]' />
+                  <value name='[X2001]' />
+                  <value name='[X2002]' />
+                  <value name='[X2003]' />
+                  <value name='[X2004]' />
+                  <value name='[X2005]' />
+                  <value name='[X2006]' />
+                  <value name='[X2007]' />
+                  <value name='[X2008]' />
+                  <value name='[X2009]' />
+                  <value name='[X2010]' />
+                  <value name='[X2011]' />
+                  <value name='[X2012]' />
+                  <value name='[X2013]' />
+                  <value name='[X2014]' />
+                  <value name='[X2015]' />
+                  <value name='[X2016]' />
+                  <value name='[X2017]' />
+                  <value name='[X2018]' />
+                  <value name='[X2019]' />
+                  <value name='[X2020]' />
+                  <value name='[X2021]' />
+                  <value name='[X2022]' />
+                  <value name='[X2023]' />
+                  <value name='[X2024]' />
+                  <value name='[X2025]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[tourism.csv].[X1960]' />
+                    <field name='[tourism.csv].[X1961]' />
+                    <field name='[tourism.csv].[X1962]' />
+                    <field name='[tourism.csv].[X1963]' />
+                    <field name='[tourism.csv].[X1964]' />
+                    <field name='[tourism.csv].[X1965]' />
+                    <field name='[tourism.csv].[X1966]' />
+                    <field name='[tourism.csv].[X1967]' />
+                    <field name='[tourism.csv].[X1968]' />
+                    <field name='[tourism.csv].[X1969]' />
+                    <field name='[tourism.csv].[X1970]' />
+                    <field name='[tourism.csv].[X1971]' />
+                    <field name='[tourism.csv].[X1972]' />
+                    <field name='[tourism.csv].[X1973]' />
+                    <field name='[tourism.csv].[X1974]' />
+                    <field name='[tourism.csv].[X1975]' />
+                    <field name='[tourism.csv].[X1976]' />
+                    <field name='[tourism.csv].[X1977]' />
+                    <field name='[tourism.csv].[X1978]' />
+                    <field name='[tourism.csv].[X1979]' />
+                    <field name='[tourism.csv].[X1980]' />
+                    <field name='[tourism.csv].[X1981]' />
+                    <field name='[tourism.csv].[X1982]' />
+                    <field name='[tourism.csv].[X1983]' />
+                    <field name='[tourism.csv].[X1984]' />
+                    <field name='[tourism.csv].[X1985]' />
+                    <field name='[tourism.csv].[X1986]' />
+                    <field name='[tourism.csv].[X1987]' />
+                    <field name='[tourism.csv].[X1988]' />
+                    <field name='[tourism.csv].[X1989]' />
+                    <field name='[tourism.csv].[X1990]' />
+                    <field name='[tourism.csv].[X1991]' />
+                    <field name='[tourism.csv].[X1992]' />
+                    <field name='[tourism.csv].[X1993]' />
+                    <field name='[tourism.csv].[X1994]' />
+                    <field name='[tourism.csv].[X1995]' />
+                    <field name='[tourism.csv].[X1996]' />
+                    <field name='[tourism.csv].[X1997]' />
+                    <field name='[tourism.csv].[X1998]' />
+                    <field name='[tourism.csv].[X1999]' />
+                    <field name='[tourism.csv].[X2000]' />
+                    <field name='[tourism.csv].[X2001]' />
+                    <field name='[tourism.csv].[X2002]' />
+                    <field name='[tourism.csv].[X2003]' />
+                    <field name='[tourism.csv].[X2004]' />
+                    <field name='[tourism.csv].[X2005]' />
+                    <field name='[tourism.csv].[X2006]' />
+                    <field name='[tourism.csv].[X2007]' />
+                    <field name='[tourism.csv].[X2008]' />
+                    <field name='[tourism.csv].[X2009]' />
+                    <field name='[tourism.csv].[X2010]' />
+                    <field name='[tourism.csv].[X2011]' />
+                    <field name='[tourism.csv].[X2012]' />
+                    <field name='[tourism.csv].[X2013]' />
+                    <field name='[tourism.csv].[X2014]' />
+                    <field name='[tourism.csv].[X2015]' />
+                    <field name='[tourism.csv].[X2016]' />
+                    <field name='[tourism.csv].[X2017]' />
+                    <field name='[tourism.csv].[X2018]' />
+                    <field name='[tourism.csv].[X2019]' />
+                    <field name='[tourism.csv].[X2020]' />
+                    <field name='[tourism.csv].[X2021]' />
+                    <field name='[tourism.csv].[X2022]' />
+                    <field name='[tourism.csv].[X2023]' />
+                    <field name='[tourism.csv].[X2024]' />
+                    <field name='[tourism.csv].[X2025]' />
+                  </group>
+                </groups>
+                <relation connection='textscan.10qdjju0558alq1h5a23x0cp14cb' name='tourism.csv' table='[tourism#csv$]' type='table'>
+                  <columns gridOrigin='A1:BS267:no:A1:BS267:0' header='yes'>
+                    <column datatype='integer' name='F1' ordinal='0' />
+                    <column datatype='string' name='Country.Name' ordinal='1' />
+                    <column datatype='string' name='Country.Code' ordinal='2' />
+                    <column datatype='string' name='Indicator.Name' ordinal='3' />
+                    <column datatype='string' name='Indicator.Code' ordinal='4' />
+                    <column datatype='string' name='X1960' ordinal='5' />
+                    <column datatype='string' name='X1961' ordinal='6' />
+                    <column datatype='string' name='X1962' ordinal='7' />
+                    <column datatype='string' name='X1963' ordinal='8' />
+                    <column datatype='string' name='X1964' ordinal='9' />
+                    <column datatype='string' name='X1965' ordinal='10' />
+                    <column datatype='string' name='X1966' ordinal='11' />
+                    <column datatype='string' name='X1967' ordinal='12' />
+                    <column datatype='string' name='X1968' ordinal='13' />
+                    <column datatype='string' name='X1969' ordinal='14' />
+                    <column datatype='string' name='X1970' ordinal='15' />
+                    <column datatype='string' name='X1971' ordinal='16' />
+                    <column datatype='string' name='X1972' ordinal='17' />
+                    <column datatype='string' name='X1973' ordinal='18' />
+                    <column datatype='string' name='X1974' ordinal='19' />
+                    <column datatype='string' name='X1975' ordinal='20' />
+                    <column datatype='string' name='X1976' ordinal='21' />
+                    <column datatype='string' name='X1977' ordinal='22' />
+                    <column datatype='string' name='X1978' ordinal='23' />
+                    <column datatype='string' name='X1979' ordinal='24' />
+                    <column datatype='string' name='X1980' ordinal='25' />
+                    <column datatype='string' name='X1981' ordinal='26' />
+                    <column datatype='string' name='X1982' ordinal='27' />
+                    <column datatype='string' name='X1983' ordinal='28' />
+                    <column datatype='string' name='X1984' ordinal='29' />
+                    <column datatype='string' name='X1985' ordinal='30' />
+                    <column datatype='string' name='X1986' ordinal='31' />
+                    <column datatype='string' name='X1987' ordinal='32' />
+                    <column datatype='string' name='X1988' ordinal='33' />
+                    <column datatype='string' name='X1989' ordinal='34' />
+                    <column datatype='string' name='X1990' ordinal='35' />
+                    <column datatype='string' name='X1991' ordinal='36' />
+                    <column datatype='string' name='X1992' ordinal='37' />
+                    <column datatype='string' name='X1993' ordinal='38' />
+                    <column datatype='string' name='X1994' ordinal='39' />
+                    <column datatype='real' name='X1995' ordinal='40' />
+                    <column datatype='real' name='X1996' ordinal='41' />
+                    <column datatype='real' name='X1997' ordinal='42' />
+                    <column datatype='real' name='X1998' ordinal='43' />
+                    <column datatype='real' name='X1999' ordinal='44' />
+                    <column datatype='real' name='X2000' ordinal='45' />
+                    <column datatype='real' name='X2001' ordinal='46' />
+                    <column datatype='real' name='X2002' ordinal='47' />
+                    <column datatype='real' name='X2003' ordinal='48' />
+                    <column datatype='real' name='X2004' ordinal='49' />
+                    <column datatype='real' name='X2005' ordinal='50' />
+                    <column datatype='real' name='X2006' ordinal='51' />
+                    <column datatype='real' name='X2007' ordinal='52' />
+                    <column datatype='real' name='X2008' ordinal='53' />
+                    <column datatype='real' name='X2009' ordinal='54' />
+                    <column datatype='real' name='X2010' ordinal='55' />
+                    <column datatype='real' name='X2011' ordinal='56' />
+                    <column datatype='real' name='X2012' ordinal='57' />
+                    <column datatype='real' name='X2013' ordinal='58' />
+                    <column datatype='real' name='X2014' ordinal='59' />
+                    <column datatype='real' name='X2015' ordinal='60' />
+                    <column datatype='real' name='X2016' ordinal='61' />
+                    <column datatype='real' name='X2017' ordinal='62' />
+                    <column datatype='real' name='X2018' ordinal='63' />
+                    <column datatype='real' name='X2019' ordinal='64' />
+                    <column datatype='real' name='X2020' ordinal='65' />
+                    <column datatype='string' name='X2021' ordinal='66' />
+                    <column datatype='string' name='X2022' ordinal='67' />
+                    <column datatype='string' name='X2023' ordinal='68' />
+                    <column datatype='string' name='X2024' ordinal='69' />
+                    <column datatype='string' name='X2025' ordinal='70' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='traffic' inline='true' name='federated.0w469g40udi4jw0zzgzoj1ppvk1j' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='traffic' name='textscan.13wkxqg0m8a0vh1e0x2gg10xz0au'>
+            <connection class='textscan' cleaning='yes' compat='no' csvFile='/Users/amanagrawal/TSA SHIT/Real Data Sci 26/Data-Sci-26/R Analysis/traffic.csv' dataRefreshTime='' directory='/Users/amanagrawal/TSA SHIT/Real Data Sci 26/Data-Sci-26/R Analysis' filename='/var/folders/16/x8rlyb_s7913cc45kvffjkdc0000gn/T/tableau-temp/1x363i0038k5cx18ryj5k1ur2l9u/traffic.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='tourism' name='textscan.19aqnpe01qvbpl141asmd0k9tstv'>
+            <connection class='textscan' directory='/Users/amanagrawal/TSA SHIT/Real Data Sci 26/Data-Sci-26/R Analysis' filename='tourism.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation type='collection'>
+          <relation name='Pivot' type='pivot'>
+            <columns>
+              <column datatype='date' date-parse-format='yyyy' name='Pivot Field Names' />
+              <column datatype='integer' name='Pivot Field Values' />
+            </columns>
+            <tag name='Pivot Field Names'>
+              <value name='[2002]' />
+              <value name='[2003]' />
+              <value name='[2004]' />
+              <value name='[2005]' />
+              <value name='[2006]' />
+              <value name='[2007]' />
+              <value name='[2008]' />
+              <value name='[2009]' />
+              <value name='[2010]' />
+              <value name='[2011]' />
+              <value name='[2012]' />
+              <value name='[2013]' />
+              <value name='[2014]' />
+              <value name='[2015]' />
+              <value name='[2016]' />
+              <value name='[2017]' />
+              <value name='[2018]' />
+              <value name='[2019]' />
+              <value name='[2020]' />
+              <value name='[2021]' />
+              <value name='[2022]' />
+              <value name='[2023]' />
+            </tag>
+            <groups>
+              <group name='Pivot Field Values'>
+                <field name='[traffic.csv].[2002]' />
+                <field name='[traffic.csv].[2003]' />
+                <field name='[traffic.csv].[2004]' />
+                <field name='[traffic.csv].[2005]' />
+                <field name='[traffic.csv].[2006]' />
+                <field name='[traffic.csv].[2007]' />
+                <field name='[traffic.csv].[2008]' />
+                <field name='[traffic.csv].[2009]' />
+                <field name='[traffic.csv].[2010]' />
+                <field name='[traffic.csv].[2011]' />
+                <field name='[traffic.csv].[2012]' />
+                <field name='[traffic.csv].[2013]' />
+                <field name='[traffic.csv].[2014]' />
+                <field name='[traffic.csv].[2015]' />
+                <field name='[traffic.csv].[2016]' />
+                <field name='[traffic.csv].[2017]' />
+                <field name='[traffic.csv].[2018]' />
+                <field name='[traffic.csv].[2019]' />
+                <field name='[traffic.csv].[2020]' />
+                <field name='[traffic.csv].[2021]' />
+                <field name='[traffic.csv].[2022]' />
+                <field name='[traffic.csv].[2023]' />
+              </group>
+            </groups>
+            <relation connection='textscan.13wkxqg0m8a0vh1e0x2gg10xz0au' name='traffic.csv' table='[/Users/amanagrawal/TSA SHIT/Real Data Sci 26/Data-Sci-26/R Analysis/traffic#csv]' type='table'>
+              <columns character-set='UTF-8' gridOrigin='A1:Z74:no:A1:Z74:1' header='yes' locale='en_US' separator=','>
+                <column datatype='integer' name='F1' ordinal='0' />
+                <column datatype='string' name='Country' ordinal='1' />
+                <column datatype='integer' name='2002' ordinal='2' />
+                <column datatype='integer' name='2003' ordinal='3' />
+                <column datatype='integer' name='2004' ordinal='4' />
+                <column datatype='integer' name='2005' ordinal='5' />
+                <column datatype='integer' name='2006' ordinal='6' />
+                <column datatype='integer' name='2007' ordinal='7' />
+                <column datatype='integer' name='2008' ordinal='8' />
+                <column datatype='integer' name='2009' ordinal='9' />
+                <column datatype='integer' name='2010' ordinal='10' />
+                <column datatype='integer' name='2011' ordinal='11' />
+                <column datatype='integer' name='2012' ordinal='12' />
+                <column datatype='integer' name='2013' ordinal='13' />
+                <column datatype='integer' name='2014' ordinal='14' />
+                <column datatype='integer' name='2015' ordinal='15' />
+                <column datatype='integer' name='2016' ordinal='16' />
+                <column datatype='integer' name='2017' ordinal='17' />
+                <column datatype='integer' name='2018' ordinal='18' />
+                <column datatype='integer' name='2019' ordinal='19' />
+                <column datatype='integer' name='2020' ordinal='20' />
+                <column datatype='integer' name='2021' ordinal='21' />
+                <column datatype='integer' name='2022' ordinal='22' />
+                <column datatype='integer' name='2023' ordinal='23' />
+                <column datatype='integer' name='NA' ordinal='24' />
+                <column datatype='integer' name='Total' ordinal='25' />
+              </columns>
+            </relation>
+          </relation>
+          <relation connection='textscan.19aqnpe01qvbpl141asmd0k9tstv' name='tourism.csv' table='[tourism#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='Country.Name' ordinal='1' />
+              <column datatype='string' name='Country.Code' ordinal='2' />
+              <column datatype='string' name='Indicator.Name' ordinal='3' />
+              <column datatype='string' name='Indicator.Code' ordinal='4' />
+              <column datatype='string' name='X1960' ordinal='5' />
+              <column datatype='string' name='X1961' ordinal='6' />
+              <column datatype='string' name='X1962' ordinal='7' />
+              <column datatype='string' name='X1963' ordinal='8' />
+              <column datatype='string' name='X1964' ordinal='9' />
+              <column datatype='string' name='X1965' ordinal='10' />
+              <column datatype='string' name='X1966' ordinal='11' />
+              <column datatype='string' name='X1967' ordinal='12' />
+              <column datatype='string' name='X1968' ordinal='13' />
+              <column datatype='string' name='X1969' ordinal='14' />
+              <column datatype='string' name='X1970' ordinal='15' />
+              <column datatype='string' name='X1971' ordinal='16' />
+              <column datatype='string' name='X1972' ordinal='17' />
+              <column datatype='string' name='X1973' ordinal='18' />
+              <column datatype='string' name='X1974' ordinal='19' />
+              <column datatype='string' name='X1975' ordinal='20' />
+              <column datatype='string' name='X1976' ordinal='21' />
+              <column datatype='string' name='X1977' ordinal='22' />
+              <column datatype='string' name='X1978' ordinal='23' />
+              <column datatype='string' name='X1979' ordinal='24' />
+              <column datatype='string' name='X1980' ordinal='25' />
+              <column datatype='string' name='X1981' ordinal='26' />
+              <column datatype='string' name='X1982' ordinal='27' />
+              <column datatype='string' name='X1983' ordinal='28' />
+              <column datatype='string' name='X1984' ordinal='29' />
+              <column datatype='string' name='X1985' ordinal='30' />
+              <column datatype='string' name='X1986' ordinal='31' />
+              <column datatype='string' name='X1987' ordinal='32' />
+              <column datatype='string' name='X1988' ordinal='33' />
+              <column datatype='string' name='X1989' ordinal='34' />
+              <column datatype='string' name='X1990' ordinal='35' />
+              <column datatype='string' name='X1991' ordinal='36' />
+              <column datatype='string' name='X1992' ordinal='37' />
+              <column datatype='string' name='X1993' ordinal='38' />
+              <column datatype='string' name='X1994' ordinal='39' />
+              <column datatype='string' name='X1995' ordinal='40' />
+              <column datatype='string' name='X1996' ordinal='41' />
+              <column datatype='string' name='X1997' ordinal='42' />
+              <column datatype='string' name='X1998' ordinal='43' />
+              <column datatype='string' name='X1999' ordinal='44' />
+              <column datatype='string' name='X2000' ordinal='45' />
+              <column datatype='string' name='X2001' ordinal='46' />
+              <column datatype='string' name='X2002' ordinal='47' />
+              <column datatype='string' name='X2003' ordinal='48' />
+              <column datatype='string' name='X2004' ordinal='49' />
+              <column datatype='string' name='X2005' ordinal='50' />
+              <column datatype='string' name='X2006' ordinal='51' />
+              <column datatype='string' name='X2007' ordinal='52' />
+              <column datatype='string' name='X2008' ordinal='53' />
+              <column datatype='string' name='X2009' ordinal='54' />
+              <column datatype='string' name='X2010' ordinal='55' />
+              <column datatype='string' name='X2011' ordinal='56' />
+              <column datatype='string' name='X2012' ordinal='57' />
+              <column datatype='string' name='X2013' ordinal='58' />
+              <column datatype='string' name='X2014' ordinal='59' />
+              <column datatype='string' name='X2015' ordinal='60' />
+              <column datatype='string' name='X2016' ordinal='61' />
+              <column datatype='string' name='X2017' ordinal='62' />
+              <column datatype='string' name='X2018' ordinal='63' />
+              <column datatype='string' name='X2019' ordinal='64' />
+              <column datatype='string' name='X2020' ordinal='65' />
+              <column datatype='string' name='X2021' ordinal='66' />
+              <column datatype='string' name='X2022' ordinal='67' />
+              <column datatype='string' name='X2023' ordinal='68' />
+              <column datatype='string' name='X2024' ordinal='69' />
+              <column datatype='string' name='X2025' ordinal='70' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[Country.Code]' value='[tourism.csv].[Country.Code]' />
+          <map key='[Country.Name]' value='[tourism.csv].[Country.Name]' />
+          <map key='[Country]' value='[traffic.csv].[Country]' />
+          <map key='[F1 (tourism.csv)]' value='[tourism.csv].[F1]' />
+          <map key='[F1]' value='[traffic.csv].[F1]' />
+          <map key='[Indicator.Code]' value='[tourism.csv].[Indicator.Code]' />
+          <map key='[Indicator.Name]' value='[tourism.csv].[Indicator.Name]' />
+          <map key='[NA]' value='[traffic.csv].[NA]' />
+          <map key='[Pivot Field Names]' value='[Pivot].[Pivot Field Names]' />
+          <map key='[Pivot Field Values]' value='[Pivot].[Pivot Field Values]' />
+          <map key='[Total]' value='[traffic.csv].[Total]' />
+          <map key='[X1960]' value='[tourism.csv].[X1960]' />
+          <map key='[X1961]' value='[tourism.csv].[X1961]' />
+          <map key='[X1962]' value='[tourism.csv].[X1962]' />
+          <map key='[X1963]' value='[tourism.csv].[X1963]' />
+          <map key='[X1964]' value='[tourism.csv].[X1964]' />
+          <map key='[X1965]' value='[tourism.csv].[X1965]' />
+          <map key='[X1966]' value='[tourism.csv].[X1966]' />
+          <map key='[X1967]' value='[tourism.csv].[X1967]' />
+          <map key='[X1968]' value='[tourism.csv].[X1968]' />
+          <map key='[X1969]' value='[tourism.csv].[X1969]' />
+          <map key='[X1970]' value='[tourism.csv].[X1970]' />
+          <map key='[X1971]' value='[tourism.csv].[X1971]' />
+          <map key='[X1972]' value='[tourism.csv].[X1972]' />
+          <map key='[X1973]' value='[tourism.csv].[X1973]' />
+          <map key='[X1974]' value='[tourism.csv].[X1974]' />
+          <map key='[X1975]' value='[tourism.csv].[X1975]' />
+          <map key='[X1976]' value='[tourism.csv].[X1976]' />
+          <map key='[X1977]' value='[tourism.csv].[X1977]' />
+          <map key='[X1978]' value='[tourism.csv].[X1978]' />
+          <map key='[X1979]' value='[tourism.csv].[X1979]' />
+          <map key='[X1980]' value='[tourism.csv].[X1980]' />
+          <map key='[X1981]' value='[tourism.csv].[X1981]' />
+          <map key='[X1982]' value='[tourism.csv].[X1982]' />
+          <map key='[X1983]' value='[tourism.csv].[X1983]' />
+          <map key='[X1984]' value='[tourism.csv].[X1984]' />
+          <map key='[X1985]' value='[tourism.csv].[X1985]' />
+          <map key='[X1986]' value='[tourism.csv].[X1986]' />
+          <map key='[X1987]' value='[tourism.csv].[X1987]' />
+          <map key='[X1988]' value='[tourism.csv].[X1988]' />
+          <map key='[X1989]' value='[tourism.csv].[X1989]' />
+          <map key='[X1990]' value='[tourism.csv].[X1990]' />
+          <map key='[X1991]' value='[tourism.csv].[X1991]' />
+          <map key='[X1992]' value='[tourism.csv].[X1992]' />
+          <map key='[X1993]' value='[tourism.csv].[X1993]' />
+          <map key='[X1994]' value='[tourism.csv].[X1994]' />
+          <map key='[X1995]' value='[tourism.csv].[X1995]' />
+          <map key='[X1996]' value='[tourism.csv].[X1996]' />
+          <map key='[X1997]' value='[tourism.csv].[X1997]' />
+          <map key='[X1998]' value='[tourism.csv].[X1998]' />
+          <map key='[X1999]' value='[tourism.csv].[X1999]' />
+          <map key='[X2000]' value='[tourism.csv].[X2000]' />
+          <map key='[X2001]' value='[tourism.csv].[X2001]' />
+          <map key='[X2002]' value='[tourism.csv].[X2002]' />
+          <map key='[X2003]' value='[tourism.csv].[X2003]' />
+          <map key='[X2004]' value='[tourism.csv].[X2004]' />
+          <map key='[X2005]' value='[tourism.csv].[X2005]' />
+          <map key='[X2006]' value='[tourism.csv].[X2006]' />
+          <map key='[X2007]' value='[tourism.csv].[X2007]' />
+          <map key='[X2008]' value='[tourism.csv].[X2008]' />
+          <map key='[X2009]' value='[tourism.csv].[X2009]' />
+          <map key='[X2010]' value='[tourism.csv].[X2010]' />
+          <map key='[X2011]' value='[tourism.csv].[X2011]' />
+          <map key='[X2012]' value='[tourism.csv].[X2012]' />
+          <map key='[X2013]' value='[tourism.csv].[X2013]' />
+          <map key='[X2014]' value='[tourism.csv].[X2014]' />
+          <map key='[X2015]' value='[tourism.csv].[X2015]' />
+          <map key='[X2016]' value='[tourism.csv].[X2016]' />
+          <map key='[X2017]' value='[tourism.csv].[X2017]' />
+          <map key='[X2018]' value='[tourism.csv].[X2018]' />
+          <map key='[X2019]' value='[tourism.csv].[X2019]' />
+          <map key='[X2020]' value='[tourism.csv].[X2020]' />
+          <map key='[X2021]' value='[tourism.csv].[X2021]' />
+          <map key='[X2022]' value='[tourism.csv].[X2022]' />
+          <map key='[X2023]' value='[tourism.csv].[X2023]' />
+          <map key='[X2024]' value='[tourism.csv].[X2024]' />
+          <map key='[X2025]' value='[tourism.csv].[X2025]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[traffic.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Z74:no:A1:Z74:1&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[traffic.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[traffic.csv_BB5526B79E18495C8F1641E0BCAF86E5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[traffic.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[traffic.csv_BB5526B79E18495C8F1641E0BCAF86E5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NA]</local-name>
+            <parent-name>[traffic.csv]</parent-name>
+            <remote-alias>NA</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[traffic.csv_BB5526B79E18495C8F1641E0BCAF86E5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total]</local-name>
+            <parent-name>[traffic.csv]</parent-name>
+            <remote-alias>Total</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[traffic.csv_BB5526B79E18495C8F1641E0BCAF86E5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[traffic.csv_BB5526B79E18495C8F1641E0BCAF86E5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[traffic.csv_BB5526B79E18495C8F1641E0BCAF86E5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (tourism.csv)]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country.Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country.Name]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>Country.Name</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country.Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country.Code]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>Country.Code</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator.Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Indicator.Name]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>Indicator.Name</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator.Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Indicator.Code]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>Indicator.Code</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1960</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1960]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1960</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1961</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1961]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1961</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1962</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1962]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1962</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1963</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1963]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1963</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1964</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1964]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1964</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1965</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1965]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1965</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1966</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1966]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1966</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1967</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1967]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1967</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1968</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1968]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1968</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1969</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1969]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1969</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1970</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1970]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1970</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1971</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1971]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1971</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1972</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1972]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1972</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1973</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1973]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1973</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1974</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1974]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1974</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1975</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1975]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1975</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1976</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1976]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1976</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1977</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1977]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1977</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1978</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1978]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1978</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1979</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1979]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1979</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1980</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1980]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1980</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1981</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1981]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1981</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1982</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1982]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1982</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1983</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1983]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1983</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1984</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1984]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1984</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1985</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1985]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1985</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1986</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1986]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1986</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1987</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1987]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1987</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1988</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1988]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1988</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1989</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1989]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1989</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1990</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1990]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1990</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1991</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1991]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1991</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1992</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1992]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1992</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1993</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1993]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1993</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1994</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1994]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1994</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1995</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1995]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1995</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1996</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1996]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1996</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1997</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1997]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1997</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1998</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1998]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1998</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X1999</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X1999]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X1999</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2000</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2000]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2000</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2001</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2001]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2001</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2002</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2002]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2002</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2003</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2003]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2003</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2004</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2004]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2004</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2005</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2005]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2005</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2006</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2006]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2006</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2007</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2007]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2007</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2008</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2008]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2008</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2009</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2009]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2009</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2010</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2010]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2010</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2011</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2011]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2011</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2012</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2012]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2012</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2013</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2013]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2013</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2014</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2014]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2014</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2015</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2015]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2015</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2016</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2016]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2016</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2017</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2017]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2017</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2018</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2018]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2018</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2019</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2019]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2019</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2020</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2020]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2020</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2021</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2021]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2021</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2022</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2022]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2022</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2023</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2023]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2023</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2024</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2024]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2024</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2025</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[X2025]</local-name>
+            <parent-name>[tourism.csv]</parent-name>
+            <remote-alias>X2025</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country.Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country.Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Country ID' datatype='integer' name='[F1]' role='measure' type='quantitative' />
+      <column caption='Country Total' datatype='integer' name='[NA]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+      <column caption='# Trafficking Cases' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <column caption='Total Cases' datatype='integer' name='[Total]' role='measure' type='quantitative' />
+      <column caption='tourism.csv' datatype='table' name='[__tableau_internal_object_id__].[tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C]' role='measure' type='quantitative' />
+      <column caption='traffic.csv' datatype='table' name='[__tableau_internal_object_id__].[traffic.csv_BB5526B79E18495C8F1641E0BCAF86E5]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='tourism.csv' id='tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C'>
+            <properties context=''>
+              <relation connection='textscan.19aqnpe01qvbpl141asmd0k9tstv' name='tourism.csv' table='[tourism#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='Country.Name' ordinal='1' />
+                  <column datatype='string' name='Country.Code' ordinal='2' />
+                  <column datatype='string' name='Indicator.Name' ordinal='3' />
+                  <column datatype='string' name='Indicator.Code' ordinal='4' />
+                  <column datatype='string' name='X1960' ordinal='5' />
+                  <column datatype='string' name='X1961' ordinal='6' />
+                  <column datatype='string' name='X1962' ordinal='7' />
+                  <column datatype='string' name='X1963' ordinal='8' />
+                  <column datatype='string' name='X1964' ordinal='9' />
+                  <column datatype='string' name='X1965' ordinal='10' />
+                  <column datatype='string' name='X1966' ordinal='11' />
+                  <column datatype='string' name='X1967' ordinal='12' />
+                  <column datatype='string' name='X1968' ordinal='13' />
+                  <column datatype='string' name='X1969' ordinal='14' />
+                  <column datatype='string' name='X1970' ordinal='15' />
+                  <column datatype='string' name='X1971' ordinal='16' />
+                  <column datatype='string' name='X1972' ordinal='17' />
+                  <column datatype='string' name='X1973' ordinal='18' />
+                  <column datatype='string' name='X1974' ordinal='19' />
+                  <column datatype='string' name='X1975' ordinal='20' />
+                  <column datatype='string' name='X1976' ordinal='21' />
+                  <column datatype='string' name='X1977' ordinal='22' />
+                  <column datatype='string' name='X1978' ordinal='23' />
+                  <column datatype='string' name='X1979' ordinal='24' />
+                  <column datatype='string' name='X1980' ordinal='25' />
+                  <column datatype='string' name='X1981' ordinal='26' />
+                  <column datatype='string' name='X1982' ordinal='27' />
+                  <column datatype='string' name='X1983' ordinal='28' />
+                  <column datatype='string' name='X1984' ordinal='29' />
+                  <column datatype='string' name='X1985' ordinal='30' />
+                  <column datatype='string' name='X1986' ordinal='31' />
+                  <column datatype='string' name='X1987' ordinal='32' />
+                  <column datatype='string' name='X1988' ordinal='33' />
+                  <column datatype='string' name='X1989' ordinal='34' />
+                  <column datatype='string' name='X1990' ordinal='35' />
+                  <column datatype='string' name='X1991' ordinal='36' />
+                  <column datatype='string' name='X1992' ordinal='37' />
+                  <column datatype='string' name='X1993' ordinal='38' />
+                  <column datatype='string' name='X1994' ordinal='39' />
+                  <column datatype='string' name='X1995' ordinal='40' />
+                  <column datatype='string' name='X1996' ordinal='41' />
+                  <column datatype='string' name='X1997' ordinal='42' />
+                  <column datatype='string' name='X1998' ordinal='43' />
+                  <column datatype='string' name='X1999' ordinal='44' />
+                  <column datatype='string' name='X2000' ordinal='45' />
+                  <column datatype='string' name='X2001' ordinal='46' />
+                  <column datatype='string' name='X2002' ordinal='47' />
+                  <column datatype='string' name='X2003' ordinal='48' />
+                  <column datatype='string' name='X2004' ordinal='49' />
+                  <column datatype='string' name='X2005' ordinal='50' />
+                  <column datatype='string' name='X2006' ordinal='51' />
+                  <column datatype='string' name='X2007' ordinal='52' />
+                  <column datatype='string' name='X2008' ordinal='53' />
+                  <column datatype='string' name='X2009' ordinal='54' />
+                  <column datatype='string' name='X2010' ordinal='55' />
+                  <column datatype='string' name='X2011' ordinal='56' />
+                  <column datatype='string' name='X2012' ordinal='57' />
+                  <column datatype='string' name='X2013' ordinal='58' />
+                  <column datatype='string' name='X2014' ordinal='59' />
+                  <column datatype='string' name='X2015' ordinal='60' />
+                  <column datatype='string' name='X2016' ordinal='61' />
+                  <column datatype='string' name='X2017' ordinal='62' />
+                  <column datatype='string' name='X2018' ordinal='63' />
+                  <column datatype='string' name='X2019' ordinal='64' />
+                  <column datatype='string' name='X2020' ordinal='65' />
+                  <column datatype='string' name='X2021' ordinal='66' />
+                  <column datatype='string' name='X2022' ordinal='67' />
+                  <column datatype='string' name='X2023' ordinal='68' />
+                  <column datatype='string' name='X2024' ordinal='69' />
+                  <column datatype='string' name='X2025' ordinal='70' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='traffic.csv' id='traffic.csv_BB5526B79E18495C8F1641E0BCAF86E5'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='date' date-parse-format='yyyy' name='Pivot Field Names' />
+                  <column datatype='integer' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[2002]' />
+                  <value name='[2003]' />
+                  <value name='[2004]' />
+                  <value name='[2005]' />
+                  <value name='[2006]' />
+                  <value name='[2007]' />
+                  <value name='[2008]' />
+                  <value name='[2009]' />
+                  <value name='[2010]' />
+                  <value name='[2011]' />
+                  <value name='[2012]' />
+                  <value name='[2013]' />
+                  <value name='[2014]' />
+                  <value name='[2015]' />
+                  <value name='[2016]' />
+                  <value name='[2017]' />
+                  <value name='[2018]' />
+                  <value name='[2019]' />
+                  <value name='[2020]' />
+                  <value name='[2021]' />
+                  <value name='[2022]' />
+                  <value name='[2023]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[traffic.csv].[2002]' />
+                    <field name='[traffic.csv].[2003]' />
+                    <field name='[traffic.csv].[2004]' />
+                    <field name='[traffic.csv].[2005]' />
+                    <field name='[traffic.csv].[2006]' />
+                    <field name='[traffic.csv].[2007]' />
+                    <field name='[traffic.csv].[2008]' />
+                    <field name='[traffic.csv].[2009]' />
+                    <field name='[traffic.csv].[2010]' />
+                    <field name='[traffic.csv].[2011]' />
+                    <field name='[traffic.csv].[2012]' />
+                    <field name='[traffic.csv].[2013]' />
+                    <field name='[traffic.csv].[2014]' />
+                    <field name='[traffic.csv].[2015]' />
+                    <field name='[traffic.csv].[2016]' />
+                    <field name='[traffic.csv].[2017]' />
+                    <field name='[traffic.csv].[2018]' />
+                    <field name='[traffic.csv].[2019]' />
+                    <field name='[traffic.csv].[2020]' />
+                    <field name='[traffic.csv].[2021]' />
+                    <field name='[traffic.csv].[2022]' />
+                    <field name='[traffic.csv].[2023]' />
+                  </group>
+                </groups>
+                <relation connection='textscan.13wkxqg0m8a0vh1e0x2gg10xz0au' name='traffic.csv' table='[/Users/amanagrawal/TSA SHIT/Real Data Sci 26/Data-Sci-26/R Analysis/traffic#csv]' type='table'>
+                  <columns character-set='UTF-8' gridOrigin='A1:Z74:no:A1:Z74:1' header='yes' locale='en_US' separator=','>
+                    <column datatype='integer' name='F1' ordinal='0' />
+                    <column datatype='string' name='Country' ordinal='1' />
+                    <column datatype='integer' name='2002' ordinal='2' />
+                    <column datatype='integer' name='2003' ordinal='3' />
+                    <column datatype='integer' name='2004' ordinal='4' />
+                    <column datatype='integer' name='2005' ordinal='5' />
+                    <column datatype='integer' name='2006' ordinal='6' />
+                    <column datatype='integer' name='2007' ordinal='7' />
+                    <column datatype='integer' name='2008' ordinal='8' />
+                    <column datatype='integer' name='2009' ordinal='9' />
+                    <column datatype='integer' name='2010' ordinal='10' />
+                    <column datatype='integer' name='2011' ordinal='11' />
+                    <column datatype='integer' name='2012' ordinal='12' />
+                    <column datatype='integer' name='2013' ordinal='13' />
+                    <column datatype='integer' name='2014' ordinal='14' />
+                    <column datatype='integer' name='2015' ordinal='15' />
+                    <column datatype='integer' name='2016' ordinal='16' />
+                    <column datatype='integer' name='2017' ordinal='17' />
+                    <column datatype='integer' name='2018' ordinal='18' />
+                    <column datatype='integer' name='2019' ordinal='19' />
+                    <column datatype='integer' name='2020' ordinal='20' />
+                    <column datatype='integer' name='2021' ordinal='21' />
+                    <column datatype='integer' name='2022' ordinal='22' />
+                    <column datatype='integer' name='2023' ordinal='23' />
+                    <column datatype='integer' name='NA' ordinal='24' />
+                    <column datatype='integer' name='Total' ordinal='25' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[Pivot Field Names]' />
+              <expression op='[F1 (tourism.csv)]' />
+            </expression>
+            <first-end-point object-id='traffic.csv_BB5526B79E18495C8F1641E0BCAF86E5' />
+            <second-end-point object-id='tourism.csv_FF083826F5EB4A83ACC900D8F7AAAC9C' />
+          </relationship>
+        </relationships>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <datasource-relationships>
+    <datasource-dependencies datasource='federated.0evjdp70scgkc711crn330ldeu50'>
+      <column caption='Year' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+      <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:ok]' pivot='key' type='ordinal' />
+    </datasource-dependencies>
+    <datasource-dependencies datasource='federated.0w469g40udi4jw0zzgzoj1ppvk1j'>
+      <column caption='Year' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+      <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:ok]' pivot='key' type='ordinal' />
+    </datasource-dependencies>
+    <datasource-relationship source='federated.0w469g40udi4jw0zzgzoj1ppvk1j' target='federated.0evjdp70scgkc711crn330ldeu50'>
+      <column-mapping>
+        <map key='[federated.0w469g40udi4jw0zzgzoj1ppvk1j].[none:Pivot Field Names:ok]' value='[federated.0evjdp70scgkc711crn330ldeu50].[none:Pivot Field Names:ok]' />
+      </column-mapping>
+    </datasource-relationship>
+  </datasource-relationships>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tourism' name='federated.0evjdp70scgkc711crn330ldeu50' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0evjdp70scgkc711crn330ldeu50'>
+            <column caption='Year' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+            <column caption='# Inbound Tourists' datatype='integer' name='[Pivot Field Values]' role='dimension' type='ordinal' />
+            <column-instance column='[Pivot Field Values]' derivation='None' name='[none:Pivot Field Values:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Pivot Field Names]' derivation='Year' name='[yr:Pivot Field Names:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0evjdp70scgkc711crn330ldeu50].[none:Pivot Field Values:ok]</rows>
+        <cols>([federated.0evjdp70scgkc711crn330ldeu50].[yr:Pivot Field Names:ok] / [federated.0evjdp70scgkc711crn330ldeu50].[none:Pivot Field Values:ok])</cols>
+      </table>
+      <simple-id uuid='{13FB2BBD-2436-4194-AF64-B3AF571C4321}' />
+    </worksheet>
+    <worksheet name='Tourism Map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tourism' name='federated.0evjdp70scgkc711crn330ldeu50' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0evjdp70scgkc711crn330ldeu50'>
+            <column datatype='string' name='[Country.Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Country.Name]' derivation='None' name='[none:Country.Name:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0evjdp70scgkc711crn330ldeu50].[none:Country.Name:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0evjdp70scgkc711crn330ldeu50].[Latitude (generated)]</rows>
+        <cols>[federated.0evjdp70scgkc711crn330ldeu50].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{033B85E9-6646-4C26-991C-95E2AB6130F3}' />
+    </worksheet>
+    <worksheet name='Tourism vs Traffik Global'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='traffic' name='federated.0w469g40udi4jw0zzgzoj1ppvk1j' />
+            <datasource caption='tourism' name='federated.0evjdp70scgkc711crn330ldeu50' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0evjdp70scgkc711crn330ldeu50'>
+            <column caption='Year' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0w469g40udi4jw0zzgzoj1ppvk1j'>
+            <column caption='Year' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+            <column caption='# Trafficking Cases' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pivot Field Names]' derivation='Year' name='[yr:Pivot Field Names:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0w469g40udi4jw0zzgzoj1ppvk1j].[sum:Pivot Field Values:qk]</rows>
+        <cols>[federated.0w469g40udi4jw0zzgzoj1ppvk1j].[yr:Pivot Field Names:ok]</cols>
+        <join-lod-include-overrides>
+          <column>[federated.0evjdp70scgkc711crn330ldeu50].[Pivot Field Names]</column>
+        </join-lod-include-overrides>
+      </table>
+      <simple-id uuid='{ECF40F04-8E5D-4C31-8110-7FF2D815AB01}' />
+    </worksheet>
+    <worksheet name='Traffic Map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='traffic' name='federated.0w469g40udi4jw0zzgzoj1ppvk1j' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0w469g40udi4jw0zzgzoj1ppvk1j'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Total Cases' datatype='integer' name='[Total]' role='measure' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total]' derivation='Sum' name='[sum:Total:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0w469g40udi4jw0zzgzoj1ppvk1j].[Longitude (generated)]' field-type='quantitative' max='34094962.165783353' min='-3357958.7015004531' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0w469g40udi4jw0zzgzoj1ppvk1j].[Latitude (generated)]' field-type='quantitative' max='13969968.11285045' min='-9589758.887541445' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0w469g40udi4jw0zzgzoj1ppvk1j].[none:Country:nk]' />
+              <color column='[federated.0w469g40udi4jw0zzgzoj1ppvk1j].[sum:Total:qk]' />
+              <geometry column='[federated.0w469g40udi4jw0zzgzoj1ppvk1j].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0w469g40udi4jw0zzgzoj1ppvk1j].[Latitude (generated)]</rows>
+        <cols>[federated.0w469g40udi4jw0zzgzoj1ppvk1j].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{B04D7376-8126-4AB1-BE6A-A9367BBD8D9C}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' name='Traffic Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0w469g40udi4jw0zzgzoj1ppvk1j].[sum:Total:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='16' />
+      </viewpoint>
+      <simple-id uuid='{18EA1788-1B6B-4B2C-B96E-A89D40533705}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Tourism Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FAFB3BD2-51AD-4E4C-90C5-FD2DEB889A66}' />
+    </window>
+    <window class='worksheet' name='Tourism vs Traffik Global'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9208853D-D248-4EC8-8689-2FCAB6E9B1C0}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DB3AD1FF-D34E-4D5A-A704-D81B1A2E2F52}' />
+    </window>
+  </windows>
+</workbook>
